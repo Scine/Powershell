@@ -6,7 +6,8 @@
 
 ## It will then change the AD user's password to the random one generated and let you know the new password
 
-## It will then sync that change across all domain controllers and then do a force synce from AD to Office 365
+## It will then sync that change across all domain controllers and then do a force synce from AD to Office 365, assuming you
+## have AD Connect set up and working properly.
 
 ## The script will then remove the security token for all devices connected to Office 365, forcing them to be logged out
 ## and ask for the new password.
