@@ -1,3 +1,5 @@
+##Powershell module to send wake on lan packet to networks computers.  Helpful in scripting.
+
 function Send-WOL
 {
 <# 
